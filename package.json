@@ -12,7 +12,6 @@
     "request-json": "^0.4.13",
     "sinon": "^1.11.1",
     "timer-jobs":"^0.1.0",
-    "zlib":"^1.0.5",
     "eventstore-client": "kunzimariano/eventstore-client"
   },
   "scripts": {
