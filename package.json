@@ -1,0 +1,21 @@
+{
+  "name": "stackoverflow",
+  "version": "0.0.1",
+  "description": "A stackoverflow commit stream integration plugin",
+  "main": "./lib/index",
+  "repository": "https://github.com/lremedi/stackoverflow-questions.git",
+  "dependencies": {
+    "mocha": "^1.21.5",
+    "body-parser": "^1.6.3",
+    "proxyquire": "^1.0.1",
+    "request": "^2.44.0",
+    "request-json": "^0.4.13",
+    "sinon": "^1.11.1",
+    "timer-jobs":"^0.1.0",
+    "eventstore-client": "kunzimariano/eventstore-client"
+  },
+  "scripts": {
+    "test": "mocha -u exports -R spec test/**/*tests.js"
+  },
+  "author": "Kunzi Mariano es pu"
+}
