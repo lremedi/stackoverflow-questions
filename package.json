@@ -3,19 +3,35 @@
   "version": "0.0.1",
   "description": "A stackoverflow commit stream integration plugin",
   "main": "./lib/index",
-  "repository": "https://github.com/lremedi/stackoverflow-questions.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lremedi/stackoverflow-questions.git"
+  },
   "dependencies": {
-    "mocha": "^1.21.5",
     "body-parser": "^1.6.3",
+    "eventstore-client": "git://github.com/kunzimariano/eventstore-client",
+    "mocha": "^1.21.5",
     "proxyquire": "^1.0.1",
     "request": "^2.44.0",
     "request-json": "^0.4.13",
     "sinon": "^1.11.1",
-    "timer-jobs":"^0.1.0",
-    "eventstore-client": "kunzimariano/eventstore-client"
+    "stackexchange": "^0.2.0",
+    "timer-jobs": "^0.1.0"
   },
   "scripts": {
     "test": "mocha -u exports -R spec test/**/*tests.js"
   },
-  "author": "Kunzi Mariano es pu"
+  "author": {
+    "name": "Kunzi Mariano es pu"
+  },
+  "readme": "stackoverflow-questions\r\n===========\r\n\r\nCommitStream plugin module\r\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/lremedi/stackoverflow-questions/issues"
+  },
+  "homepage": "https://github.com/lremedi/stackoverflow-questions",
+  "_id": "stackoverflow-questions@0.0.1",
+  "_shasum": "a7d62f501e93d0598a9e89d256b9d6c63560b724",
+  "_resolved": "git://github.com/lremedi/stackoverflow-questions#c43057c1a9f798085ad6486c5be52eeb1bace740",
+  "_from": "stackoverflow-questions@git://github.com/lremedi/stackoverflow-questions"
 }
