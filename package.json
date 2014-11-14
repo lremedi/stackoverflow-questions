@@ -10,8 +10,10 @@
   "dependencies": {
     "body-parser": "^1.6.3",
     "eventstore-client": "git://github.com/kunzimariano/eventstore-client",
+    "fs": "0.0.2",
     "jsesc": "^0.5.0",
     "mocha": "^1.21.5",
+    "path": "^0.4.9",
     "proxyquire": "^1.0.1",
     "q": "^1.1.1",
     "request": "^2.44.0",
